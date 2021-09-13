@@ -57,7 +57,8 @@ void push(struct Node **head_ref, int new_data)
     /* move the head to point to the new node */
     (*head_ref) = new_node;
 }
-
+int x;
+// i have given external data type of the gobal variable..
 /* Function to print nodes in a given doubly linked list
    This function is same as printList() of singly linked list */
 void printList(struct Node *node)
